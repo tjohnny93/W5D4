@@ -32,5 +32,6 @@ String.prototype.substrings = (function(){
     return result;
 });
 
-str = "dog";
-console.log(str.substrings());
+// str = "dog";
+// console.log(str.substrings());
+
