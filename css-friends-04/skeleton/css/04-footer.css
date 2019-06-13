@@ -1,6 +1,24 @@
 /* PHASE 4: Footer */
 
 .footers {
+  width: 900px;
+  background-color: white;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+  color: #aaa;
+  align-items: center;
   
+}
 
+.footer-nav > ul {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.footer-nav ul li {
+  padding: 10px;
 }
