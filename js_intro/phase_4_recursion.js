@@ -39,4 +39,17 @@ function exponent(base, exp) {
   return result * base;
 }
 
-console.log(exponent(2, 4));
+// console.log(exponent(2, 4));
+
+function fibonacci(n) {
+  if (n === 1) {
+    return [1];
+  }
+  if (n === 2) {
+    return [1, 1];
+  }
+  let next_num = fibonacci(n-1)[fibonacci(n-1).length - 1] + fibonacci(n-1)[fibonacci(n-1).length - 2];
+
+  return fibonacci(n-1).concat([next_num]);
+  
+}
