@@ -25,5 +25,18 @@ function sumRec(arr) {
   return last;
 }
 
-let arr = [1,2,3,4,6];
-console.log(sumRec(arr));
+// let arr = [1,2,3,4,6];
+// console.log(sumRec(arr));
+
+function exponent(base, exp) {
+  if (exp === 0) {
+    return 1;
+  } 
+  if (exp === 1) {
+    return base;
+  }
+  let result = exponent(base, exp - 1);
+  return result * base;
+}
+
+console.log(exponent(2, 4));
